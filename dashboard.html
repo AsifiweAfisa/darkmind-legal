@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DarkMind Auto - Dashboard</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, sans-serif; margin: 0; background: #f3f4f6; display: flex; }
+        .sidebar { width: 250px; background: #111; color: white; height: 100vh; padding: 20px; box-sizing: border-box; }
+        .content { flex-grow: 1; padding: 40px; }
+        .card { background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); max-width: 600px; }
+        button { background: #fe2c55; color: white; border: none; padding: 12px 24px; border-radius: 4px; font-weight: bold; cursor: pointer; margin-top: 20px; font-size: 16px; }
+        h1, h2 { margin-top: 0; }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h2>DarkMind Auto</h2>
+        <p>📊 Dashboard</p>
+        <p>🎬 Content Manager</p>
+        <p>⚙️ Settings</p>
+    </div>
+    <div class="content">
+        <div class="card">
+            <h2>Publish New Video</h2>
+            <p>Select a rendered video from your cloud library to push to your connected TikTok feed.</p>
+            <div style="border: 2px dashed #ccc; padding: 40px; text-align: center; border-radius: 4px; margin-bottom: 20px;">
+                Ready to Publish: <b>final_render_4K.mp4</b>
+            </div>
+            <button>Publish to TikTok</button>
+        </div>
+    </div>
+</body>
+</html>
